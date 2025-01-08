@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background Shape -->
+  <circle cx="32" cy="32" r="28" fill="#E8F5FF" />
+  
+  <!-- Clipboard -->
+  <rect x="20" y="14" width="24" height="32" rx="3" fill="white" stroke="#2563EB" stroke-width="2"/>
+  <rect x="24" y="22" width="16" height="2" rx="1" fill="#93C5FD"/>
+  <rect x="24" y="28" width="12" height="2" rx="1" fill="#93C5FD"/>
+  <rect x="24" y="34" width="14" height="2" rx="1" fill="#93C5FD"/>
+  
+  <!-- Clip -->
+  <path d="M20 14H44V18H20V14Z" fill="#2563EB"/>
+  
+  <!-- Pencil -->
+  <path d="M38 32L42 28L44 30L40 34L38 34V32Z" fill="#2563EB"/>
+  <path d="M38 32L42 28" stroke="#2563EB" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Person Icon -->
+  <circle cx="32" cy="24" r="4" fill="#60A5FA"/>
+  <path d="M26 38C26 34.6863 28.6863 32 32 32C35.3137 32 38 34.6863 38 38" stroke="#60A5FA" stroke-width="2"/>
+</svg> 

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background Shape -->
+  <circle cx="32" cy="32" r="28" fill="#ECFDF5" />
+  
+  <!-- Phone Body -->
+  <rect x="22" y="12" width="20" height="40" rx="3" fill="white" stroke="#059669" stroke-width="2"/>
+  
+  <!-- Screen Elements -->
+  <rect x="24" y="16" width="16" height="28" rx="1" fill="#6EE7B7"/>
+  
+  <!-- Check Mark -->
+  <path d="M28 30L31 33L36 28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Home Button -->
+  <circle cx="32" cy="48" r="2" fill="#059669"/>
+  
+  <!-- QR Code Corner Marks -->
+  <path d="M28 22H30V24H28V22Z" fill="white"/>
+  <path d="M34 22H36V24H34V22Z" fill="white"/>
+  <path d="M28 28H30V30H28V28Z" fill="white"/>
+  <path d="M34 28H36V30H34V28Z" fill="white"/>
+  
+  <!-- Connection Lines -->
+  <path d="M42 24C44 24 46 26 46 32" stroke="#059669" stroke-width="2" stroke-linecap="round"/>
+  <path d="M42 40C44 40 46 38 46 32" stroke="#059669" stroke-width="2" stroke-linecap="round"/>
+</svg> 

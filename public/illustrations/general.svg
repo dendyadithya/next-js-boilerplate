@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="28" fill="#E8F5FF" />
+  
+  <!-- Wallet/Payment Container -->
+  <g transform="translate(20, 20)">
+    <!-- Base Circle -->
+    <circle cx="12" cy="12" r="12" fill="#005B9C" />
+    
+    <!-- Coin Symbol -->
+    <circle cx="12" cy="12" r="8" fill="white" stroke="#005B9C" stroke-width="1.5"/>
+    
+    <!-- Rp Symbol -->
+    <text
+      x="12"
+      y="15"
+      font-family="Arial, sans-serif"
+      font-size="10"
+      font-weight="bold"
+      fill="#005B9C"
+      text-anchor="middle"
+    >
+      Rp
+    </text>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g stroke="#005B9C" stroke-width="2" stroke-linecap="round">
+    <!-- Small Coins Left -->
+    <circle cx="16" cy="32" r="3" fill="white" stroke="#005B9C" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="24" cy="32" r="3" fill="white" stroke="#005B9C" stroke-width="1.5" opacity="0.7"/>
+    
+    <!-- Small Coins Right -->
+    <circle cx="40" cy="32" r="3" fill="white" stroke="#005B9C" stroke-width="1.5" opacity="0.7"/>
+    <circle cx="48" cy="32" r="3" fill="white" stroke="#005B9C" stroke-width="1.5" opacity="0.6"/>
+  </g>
+</svg>

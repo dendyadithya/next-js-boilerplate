@@ -1,0 +1,30 @@
+'use server'
+
+import { api } from '@/lib/http/fetch-api'
+import { adminActionClient } from '@/lib/http/safe-action'
+import { validationMapper } from '@/lib/utils'
+import { userSchema } from '@/types/sysadmin/user'
+import { revalidatePath } from 'next/cache'
+
+export const createUserAction = adminActionClient
+  .metadata({ actionName: 'createUserAction' })
+  .schema(userSchema)
+  .action(async ({ parsedInput }) => {
+    const { data, error } = await api.post<string, typeof parsedInput>('/users', {
+      ...parsedInput,
+      roles: parsedInput.roles?.flatMap(role => role)
+    })
+
+    if (error) {
+      if (error.code === 422 && typeof error.message === 'object') {
+        validationMapper(userSchema, error.message)
+      } else if (typeof error.message === 'string') {
+        throw new Error(error.message)
+      }
+
+      throw new Error('Unknown error occurred')
+    }
+
+    revalidatePath('/sysadmin/users')
+    return data
+  })

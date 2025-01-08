@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="28" fill="#F0FDF4" />
+  
+  <!-- Person Icon with Plus -->
+  <g transform="translate(20, 16)">
+    <!-- Head -->
+    <circle cx="12" cy="10" r="6" fill="#22C55E" />
+    
+    <!-- Body -->
+    <path 
+      d="M2 28C2 22.477 6.477 18 12 18V18C17.523 18 22 22.477 22 28"
+      fill="#22C55E"
+    />
+    
+    <!-- Plus Symbol -->
+    <circle cx="22" cy="8" r="6" fill="#22C55E" />
+    <rect x="20" y="6" width="4" height="4" rx="1" fill="white" />
+    <rect x="19" y="7" width="6" height="2" rx="1" fill="white" />
+  </g>
+  
+  <!-- Decorative Elements -->
+  <g stroke="#22C55E" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <!-- Sparkles -->
+    <path d="M12 32L14 34L16 32" />
+    <path d="M48 32L50 34L52 32" />
+  </g>
+</svg> 
